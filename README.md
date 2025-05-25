@@ -66,7 +66,3 @@ This project uses Bun as the JavaScript runtime and package manager. Key files:
 - `package.json` - Project configuration and dependencies
 
 To make changes to the code, edit the TypeScript files and run with `bun start`.
-
-## License
-
-[MIT](LICENSE)
