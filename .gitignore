@@ -1,0 +1,12 @@
+# Bun specific
+bun.lockb
+node_modules/
+
+# Environment variables
+.env
+
+# Backup files
+*.backup
+
+# Build output
+dist/
