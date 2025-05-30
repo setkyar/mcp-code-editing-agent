@@ -2,10 +2,10 @@
   "name": "mcp-code-editing-agent",
   "version": "1.0.0",
   "description": "",
-  "main": "index.ts",
+  "main": "index.tsx",
   "type": "module",
   "scripts": {
-    "start": "bun run index.ts",
+    "start": "bun run index.tsx",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -14,12 +14,19 @@
   "packageManager": "bun",
   "dependencies": {
     "@ai-sdk/anthropic": "^1.2.12",
+    "@ai-sdk/google": "^1.2.18",
+    "@ai-sdk/openai": "^1.3.22",
     "ai": "^4.3.16",
     "dotenv": "^16.5.0",
+    "ink": "^6.0.0",
+    "ink-spinner": "^5.0.0",
+    "ink-text-input": "^6.0.0",
+    "react": "^19.1.0",
     "zod": "^3.25.28"
   },
   "devDependencies": {
     "@types/node": "^22.15.21",
+    "@types/react": "^19.1.6",
     "tsx": "^4.19.4",
     "typescript": "^5.8.3"
   }
