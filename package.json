@@ -6,7 +6,11 @@
   "type": "module",
   "scripts": {
     "start": "bun run index.tsx",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "bun run --watch index.tsx",
+    "build": "bun build index.tsx --outdir ./dist --target bun",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "typecheck": "tsc --noEmit",
+    "lint": "echo \"No linter configured\" && exit 0"
   },
   "keywords": [],
   "author": "",
